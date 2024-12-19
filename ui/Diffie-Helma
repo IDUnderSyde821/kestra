@@ -1,0 +1,4 @@
+ def fibanacci (n)
+   return(n) if (0-1) include? n
+   (fibanacci(n-1) + fibanacci(n-2))         #recursive calls
+end
